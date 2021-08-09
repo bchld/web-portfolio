@@ -1,13 +1,14 @@
+/* main color for page*/
 body{
-    background:lightgrey
+    background:lightgrey;
 }
 
 .text-centered {
     text-align: center;
 }
-
+/* footer settings */
 .db-lt {
-    background-color: darkgray;
+    background-color: rgb(48, 61, 57);
     color: whitesmoke;
     margin: 35px;
     padding: center;
@@ -23,20 +24,27 @@ ol{
     list-style-position: inside;
 }
 
-h1 {
+h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
 }
 
-h2 {
+h3 {
     text-align: center;
 }
 /* Pseudo classes */
 a:link {
-    color:lightgrey
+    color:whitesmoke;
 }
 
-a:visited{
-    color:yellow
+a:visited {
+    color:rgb(163, 170, 60);
 }
 
+a:hover{
+    color:orange;
+}
+
+a:active {
+    color:brown;
+}
